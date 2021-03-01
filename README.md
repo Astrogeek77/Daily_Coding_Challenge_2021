@@ -18,4 +18,4 @@ Some Projects to see.....
 
 [Video Background](https://astrogeek77.github.io/Daily-Coding-Challenge-2021/video%20background/)
 
-[video background 2](https://astrogeek77.github.io/Daily-Coding-Challenge-2021/video%20background%202/)
+[Video Background 2](https://astrogeek77.github.io/Daily-Coding-Challenge-2021/video%20background%202/)
