@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #19172e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+section::before {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 10%;
+    right: 20%;
+    border-radius: 10px;
+    background: linear-gradient(#f9d924, #ff2c24);
+    animation: animate 5s ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+section::after {
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    bottom: 10%;
+    left: 20%;
+    border-radius: 10px;
+    background: linear-gradient(#01d6ff, #0f24f9);
+    animation: animate 5s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: -2.5s;
+}
+
+@keyframes animate {
+
+    0%,
+    100% {
+        transform: translateY(20px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.clock {
+    position: relative;
+    width: 750px;
+    height: 250px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 15px 25px rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    z-index: 100;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+}
+
+.clock .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.clock .container h2 {
+    color: #fff;
+    font-size: 6em;
+}
+
+.clock .container h2:nth-child(odd) {
+    padding: 5px 15px;
+    margin: 0 10px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 15px 25px rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.clock .container h2#seconds {
+    color: #f9d924;
+}
+
+.clock .container span#ampm {
+    position: relative;
+    top: -50px;
+    font-size: 2em;
+    font-weight: 700;
+    color: #fff;
+}
