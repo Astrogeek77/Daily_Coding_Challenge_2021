@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: black;
+    cursor: url("covid-19.png"),
+        auto
+}
+
+.face {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #ffcd00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* cursor: pointer; */
+    margin: 40px;
+}
+
+.face::before {
+    content: "";
+    position: absolute;
+    top: 180px;
+    width: 150px;
+    height: 70px;
+    background-color: #e35d6a;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    transition: 500ms;
+}
+
+.face:hover::before {
+    top: 210px;
+    width: 150px;
+    height: 20px;
+    background-color: #b57700;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.eyes {
+    position: relative;
+    top: -40px;
+    display: flex;
+}
+
+.eyes .eye {
+    position: relative;
+    display: block;
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    margin: 0 15px;
+    border-radius: 50%;
+}
+
+.eyes .eye::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    height: 40px;
+    width: 40px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: #001440;
+}
