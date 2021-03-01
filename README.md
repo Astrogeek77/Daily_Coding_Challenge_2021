@@ -15,3 +15,7 @@ Some Projects to see.....
 [Magic Emoji](https://astrogeek77.github.io/Daily-Coding-Challenge-2021/Magic%20Emoji/)
 
 [Water Ripple Effect](https://astrogeek77.github.io/Daily-Coding-Challenge-2021/Water%20Ripple%20Effect/)
+
+[Video Background](https://astrogeek77.github.io/Daily-Coding-Challenge-2021/video%20background/)
+
+
