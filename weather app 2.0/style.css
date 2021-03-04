@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Arima+Madurai:300);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arima Madurai', cursive;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape,rain,');
+    font-size: 120%;
+}
+
+.card {
+    background: #000000d0;
+    width: 100%;
+    color: white;
+    max-width: 420px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.card .search button {
+    margin: 0.5em;
+    border-radius: 50%;
+    height: 46px;
+    width: 46px;
+    outline: none;
+    border: none;
+    background: #7c7c7c2b;
+    color: white;
+}
+
+.card .search button:hover {
+    background: #7c7c7c6b;
+}
+
+.card .search .search-box {
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: #fff;
+    font-family: inherit;
+    font-size: 120%;
+    width: calc(100% - 50px);
+}
+
+.card .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .weather .temp {
+    margin: 0;
+}
+
+.city {
+    margin-top: 20px;
+}
+
+.description {
+    text-transform: capitalize;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+}
+
+.weather.loading::after {
+    content: "Loading...";
+    position: absolute;
+    top: 0;
+    left: 20px;
+    visibility: visible;
+    color: white;
+}

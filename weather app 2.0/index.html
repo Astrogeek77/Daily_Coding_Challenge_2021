@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Weather App</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="https://i.pinimg.com/originals/77/0b/80/770b805d5c99c7931366c2e84e88f251.png">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js" async defer></script>
+    </head>
+    <body>
+        <div class="card">
+            <div class="search">
+                <input type="text" placeholder="Search" class="search-box">
+                <button id="search-btn"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z" clip-rule="evenodd"></path></svg></button>
+            </div>
+            <div class="weather loading">
+                <h2 class="city">
+                    Enter a City
+                </h2>
+                <h1 class="temp">0°C</h1>
+                <div class="flex">
+                    <img src="" class="icon" alt="" />
+                    <div class="description">Description</div>
+                </div> 
+                <div class="humidity">Humidity: TBD</div>
+                <div class="wind">Wind Speed: TBD km/h</div>
+                <div class="pressure">Pressure: TBD kPa</div>
+                <div class="timezone">Timezone: TBD</div>
+            </div>
+        </div>
+    </body>
+</html>
