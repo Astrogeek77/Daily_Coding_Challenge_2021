@@ -25,3 +25,5 @@ Some Projects to see.....
 [3D Foldable Card](https://astrogeek77.github.io/Daily-Coding-Challenge-2021/3D%20Foldable%20Card/)
 
 [Flapping Birds Animation](https://astrogeek77.github.io/Daily-Coding-Challenge-2021/Flapping%20Birds%20Animation/)
+
+[Weather App](https://astrogeek77.github.io/Daily-Coding-Challenge-2021/weather%20app%202.0/)
