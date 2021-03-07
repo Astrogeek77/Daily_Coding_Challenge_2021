@@ -30,3 +30,5 @@
 10. [Flapping Birds Animation](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/Flapping%20Birds%20Animation/)
 
 11. [Weather App](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/weather%20app%202.0/)
+
+12. [Rotating Squares CSS animation]()
