@@ -31,4 +31,4 @@
 
 11. [Weather App](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/weather%20app%202.0/)
 
-12. [Rotating Squares CSS animation]()
+12. [Rotating Squares CSS animation](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/Rotating%20Squares%20CSS%20animation/)
