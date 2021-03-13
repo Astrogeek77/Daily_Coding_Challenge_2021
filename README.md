@@ -38,4 +38,4 @@
 
 #### 14. [Random_Color_Palatte_Generator](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/Random%20Color%20Palatte%20Generator/)
 
-#### 13. [Google Map Clone](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/Google%20Map%20Clone/)
+#### 15. [Google Map Clone](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/Google%20Map%20Clone/)
