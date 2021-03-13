@@ -34,4 +34,8 @@
 
 #### 12. [Rotating Squares CSS animation](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/Rotating%20Squares%20CSS%20animation/)
 
+#### 13. [Pokedex](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/pokedex/) 
+
+#### 14. [Random_Color_Palatte_Generator](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/Random%20Color%20Palatte%20Generator/)
+
 #### 13. [Google Map Clone](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/Google%20Map%20Clone/)
