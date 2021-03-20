@@ -41,3 +41,5 @@
 #### 15. [Google Map Clone](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/Google%20Map%20Clone/)
 
 #### 16. [Drawing App](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/drawing-app/)
+
+#### 17. [Quiz_App](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/quiz-app/)
