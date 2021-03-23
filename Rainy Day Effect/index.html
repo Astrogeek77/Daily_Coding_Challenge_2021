@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Rainy Day</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <img id="background" alt="background" src="" />
+        
+        <script src="rainyday.js" ></script>
+        <script>
+            function rain() {
+                var image = document.getElementById('background');
+                image.onload = function () {
+                    var engine = new RainyDay({
+                        image: this
+                    });
+                    engine.rain([
+                        [5, 5, 50]
+                    ]);
+                    engine.rain([
+                        [3, 3, 0.88],
+                        [5, 5, 0.9],
+                        [6, 2, 1]
+                    ], 100);
+                };
+                image.crossOrigin = 'anonymous';
+                image.src = 'https://source.unsplash.com/1600x900/?mountains,forest,nature';
+            }
+
+            rain()
+        </script>
+    </body>
+</html>
