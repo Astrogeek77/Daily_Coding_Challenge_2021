@@ -27,5 +27,5 @@
 |  Google Map Clone | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/Google%20Map%20Clone/) |
 | Drawing App     | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/drawing-app/)      | 
 | Quiz App | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/quiz-app/)     |
-|  Rainy Day Effect | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/Rainy%20Day%20Effect/) |
-|  To Do List | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/todo-list/) |
+| Rainy Day Effect | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/Rainy%20Day%20Effect/) |
+| To Do List | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/todo-list/) |
