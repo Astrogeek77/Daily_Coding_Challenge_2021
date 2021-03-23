@@ -1,10 +1,10 @@
-# Welcome! Konichiwa! Namaste!
+## Welcome! Konichiwa! Namaste!
 
 ### Some small projects using HTML, CSS, Javascript, jQuery ....
 
-### Landing Page [here](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/)
+### [Landing Page] (https://astrogeek77.github.io/Daily_Coding_Challenge_2021/)
 
-### Enjoy Share Suggest Use
+#### Enjoy Share Suggest Use
 
 
 
