@@ -4,11 +4,11 @@
 
 ### [Landing Page](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/)
 
-#### Enjoy Share Suggest Use
+### Enjoy Share Suggest Use
 
 
 
-### Some Projects to see.....
+#### Some Projects to see.....
 
 | Projects      | Link          | 
 | ------------- |:-------------:|
