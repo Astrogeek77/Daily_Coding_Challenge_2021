@@ -43,3 +43,5 @@
 #### 16. [Drawing App](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/drawing-app/)
 
 #### 17. [Quiz_App](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/quiz-app/)
+
+#### 18. [Rainy Day Effect](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/Rainy%20Day%20Effect/)
