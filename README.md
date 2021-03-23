@@ -2,7 +2,7 @@
 
 ### Some small projects using HTML, CSS, Javascript, jQuery ....
 
-### [Landing Page] (https://astrogeek77.github.io/Daily_Coding_Challenge_2021/)
+### [Landing Page](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/)
 
 #### Enjoy Share Suggest Use
 
