@@ -29,3 +29,4 @@
 | Quiz App | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/quiz-app/)     |
 | Rainy Day Effect | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/Rainy%20Day%20Effect/) |
 | To Do List | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/todo-list/) |
+| Themes App | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/Theme%20Toggler/) |
