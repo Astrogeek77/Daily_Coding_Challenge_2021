@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Arima+Madurai:300);
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    font-family: 'Arima Madurai', cursive;
+    font-weight: bold;
+}
+
+/* Themes */
+
+.dark {
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+    --btn-color: #00955b;
+    --accent-color: #ececec;
+}
+
+.light {
+    --text-primary: #1f1f1f;
+    --text-secondary: #000000;
+    --bg-primary: #ffffff;
+    --bg-secondary: #e4e4e4;
+    --btn-color: #f5e5b8;
+    --accent-color: #000;
+}
+
+.solar {
+    --text-primary: #13566b;
+    --text-secondary: #004D00;
+    --bg-primary: #fdf6e3;
+    --bg-secondary: #f5e5b8;
+    --btn-color: #FF7FFF;
+    --accent-color: #30505a;
+}
+
+.minty {
+    --text-primary: #00203FFF;
+    --text-secondary: #fcfcfc;
+    --bg-primary: #ADEFD1FF;
+    --bg-secondary: #7ACC7A;
+    --btn-color: #fa2600;
+    --accent-color: purple;
+}
+
+.grey {
+    --text-primary: #E2E2E2;
+    --text-secondary: #FFFFFF;
+    --bg-primary: #454545;
+    --bg-secondary: #2C2C2C;
+    --btn-color: #5A5A5A;
+    --accent-color: green;
+}
+
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+}
+
+button {
+    background-color: var(--btn-color);
+    color: var(--text-secondary);
+    padding: 10px 20px;
+    font-size: 1em;
+    outline: none;
+    border: 2px solid var(--text-secondary);
+}
+
+a {
+    color: var(--text-secondary);
+    text-decoration: none;
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+.footer {
+    position: fixed;
+    background-color: var(--bg-secondary);
+    color: var(--accent-color);
+    width: 100%;
+    margin-top: 20px;
+    bottom: 0;
+    text-align: center;
+}
+
+header {
+    margin: 20px;
+    display: flex;
+    height: 30vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    padding: 30px;
+    margin: 10px;
+    font-size: 1.3em;
+}
