@@ -31,3 +31,4 @@
 | To Do List | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/todo-list/) |
 | Themes App | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/Theme%20Toggler/) |
 | Whack A Mole | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/Whack%20a%20Mole/) |
+| Youtube Clone | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/Youtube%20Clone/) |
