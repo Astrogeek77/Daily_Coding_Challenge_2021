@@ -42,5 +42,5 @@ document.querySelector(".search button").addEventListener("click", function () {
 })
 
 
-weather.fetchWeather("ludhiana");
+weather.fetchWeather("auckland");
 
