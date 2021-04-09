@@ -17,6 +17,21 @@ body {
   margin: 0;
 }
 
+/* Scroll Bar Customization */
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #e1e1e1;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #000;
+}
+
+
 header {
   padding: 1rem;
   display: flex;
