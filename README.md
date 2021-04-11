@@ -34,3 +34,5 @@
 | Youtube Clone | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/Youtube%20Clone/) |
 | Expanding Carousal | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/expanding-cards/) |
 | Mini Movies App | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/movie-app/) |
+| Music Player App | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/music-player/) |
+
