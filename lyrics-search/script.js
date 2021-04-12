@@ -21,7 +21,7 @@ function showData(data) {
       .map(
         song => `<li>
       <img src="${song.album.cover_small}">
-      <span style="font-size: 15px; "><strong>${song.artist.name}</strong> - ${song.title.substring(0, 10)}... - ${secToMin(song.duration)} </span>
+      <span style="font-size: 15px; "><strong>${song.artist.name.substring(0, 10)}</strong> - ${song.title.substring(0, 10)}... - ${secToMin(song.duration)} </span>
       <span>
         <button class="btn song-lyrics" data-artist="${song.artist.name}" data-songtitle="${song.title}">Lyrics</button>
         <button class="btn"><a class="song-preview" href="${song.preview}"> Preview </a></button>
