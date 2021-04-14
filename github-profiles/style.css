@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2a2a72;
+  background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.user-form {
+  width: 100%;
+  max-width: 700px;
+}
+
+.user-form input {
+  width: 100%;
+  display: block;
+  background-color: #4c2885;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  font-family: inherit;
+  font-size: 1rem;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+.user-form input::placeholder {
+  color: #bbb;
+}
+
+.user-form input:focus {
+  outline: none;
+}
+
+.card {
+  max-width: 800px;
+  background-color: #e2e2e2;
+  color: #000;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(0, 0, 0, 0.1);
+  display: flex;
+  padding: 3rem;
+  font-size: 16px;
+  margin: 0 1.5rem;
+}
+
+.avatar {
+  border-radius: 10%;
+  border: 10px solid #2a2a72;
+  height: 150px;
+  width: 150px;
+}
+
+.user-info {
+  color: #000;
+  margin-left: 2rem;
+}
+
+.user-info h2 {
+  margin-top: 0;
+}
+
+.user-info ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  max-width: 500px;
+}
+
+.user-info ul li {
+  display: flex;
+  align-items: center;
+}
+
+.user-info ul li strong {
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+}
+
+.repo {
+  text-decoration: none;
+  color: #fff;
+  background-color: #212a72;
+  font-size: 0.7rem;
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.blog-button {
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  border: 1px solid #000;
+  background-color: #ddd;
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  ul.second-desc {
+    display: none;
+  }
+
+  .user-form {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 450px) {
+  .user-info ul {
+    display: none;
+  }
+}
