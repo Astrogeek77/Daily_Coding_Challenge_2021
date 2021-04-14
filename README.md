@@ -37,4 +37,5 @@
 | Music Player App | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/music-player/) |
 | Lyrics Search App | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/lyrics-search/) |
 | Meal Finder App | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/meal-finder/) |
+| Github Profiles | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/github-profiles/) |
 
