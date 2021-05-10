@@ -42,4 +42,5 @@
 | Hoverboard | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/hoverboard/) |
 | Glass Calendar | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/Calender/) |
 | Notes App | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/notes-app/) |
+| CSS Lightsaber | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/Lightsabers/) |
 
