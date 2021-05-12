@@ -43,4 +43,4 @@
 | Glass Calendar | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/Calender/) |
 | Notes App | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/notes-app/) |
 | CSS Lightsaber | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/Lightsabers/) |
-
+| New Year's Eve Countdown | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/new-year-countdown/) |
