@@ -46,7 +46,7 @@ function createUserCard(user) {
         ${attritubenullcheck(nullchecker(user.location), "Location")}
       </ul>
       <ul>
-        ${attritubenullcheck(nullchecker(user.created_at), "Created")}
+        ${dateAttritubenullcheck(nullchecker(dateFormatter(user.created_at)), "Created")}
         ${buttonnullcheck(user.blog, "Visit Blog")}
       </ul>
 
@@ -58,12 +58,27 @@ function createUserCard(user) {
     
 }
 
+function dateFormatter(str){
+    moment.defaultFormat = "DD.MM.YYYY, HH:mm";
+
+    var str2 = moment(str).format('llll');
+    return str2
+}
+
 function buttonnullcheck(item, att) {
     if (item != "") {
         return `<a class="blog-button" href="${item}">${att}</a>`;
     }
     else return "";
 }
+
+function dateAttritubenullcheck(item, att) {
+    if (item != "") {
+        return `<li><strong>${att}</strong> - ${item} </li>`;
+    }
+    else return "";
+}
+
 
 function attritubenullcheck(item, att) {
     if (item != "") {
