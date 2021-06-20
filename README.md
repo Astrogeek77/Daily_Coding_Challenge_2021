@@ -25,7 +25,7 @@
 | 3D Foldable Card     | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/3D%20Foldable%20Card/)      | 
 | Flapping Bird Animation (Normalize.css)| [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/Flapping%20Birds%20Animation/)     |
 |  Weather App (OpenWeather API)| [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/weather%20app%202.0/) |
-| Pokedox     | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/pokedex/)      | 
+| Pokedox (poke API)    | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/pokedex/)      | 
 | Random Color Palatte Generator | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/Random%20Color%20Palatte%20Generator/)     |
 | Google Map Clone (MapBox.js) | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/Google%20Map%20Clone/) |
 | Drawing App     | [demo](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/drawing-app/)      | 
