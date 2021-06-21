@@ -10,19 +10,32 @@ let weather = {
             .then((data) => this.displayWeather(data))
     }, 
     displayWeather: (data) => {
+        const { cod, message } = data;
+
+        if(cod == '404') {
+            document.querySelector(".weather").innerText = message;
+            setTimeout("location.reload(true);", 3000);
+            document.querySelector(".weather").classList.add('error')
+            return;         
+        }
+
         const { name, timezone } = data;
         const { icon, description } = data.weather[0];
         const { temp, humidity, pressure } = data.main;
-        const { speed } = data.wind;
+        const { speed, deg } = data.wind;
+        const { country } = data.sys;
+        const { visibility } = data;
+        
         console.log(name, icon, description, temp, humidity, speed);
 
-        document.querySelector(".city").innerText = "Weather in " + name;
+        document.querySelector(".city").innerText = "Weather in " + name + ", " + country;
         document.querySelector(".icon").src = "https://openweathermap.org/img/wn/" + icon + "@2x.png";
         document.querySelector(".description").innerText = description;
         document.querySelector(".humidity").innerText = "Humidity: " + humidity + "%";
         document.querySelector(".temp").innerText = temp + "°C";
-        document.querySelector(".wind").innerText = "Wind Speed: " + speed + " KM/H";
+        document.querySelector(".wind").innerText = "Wind: " + deg + "°, " + speed + " KM/H";
         document.querySelector(".pressure").innerText = "Pressure: " + pressure/100 + " bar";
+        document.querySelector(".visibility").innerText = "Visibility: " + visibility/1000 + " KM";
         document.querySelector(".timezone").innerText = "Time-Zone: " + timeConvert(timezone) + " GMT";
 
         document.querySelector(".weather").classList.remove("loading");
