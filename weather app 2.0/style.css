@@ -78,6 +78,20 @@ body {
     align-items: center;
 }
 
+.weather {
+    font-size: 20px;
+}
+
+.weather.error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background-color: crimson;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
 .weather.loading {
     visibility: hidden;
     max-height: 20px;
@@ -91,4 +105,8 @@ body {
     left: 20px;
     visibility: visible;
     color: white;
+}
+
+.content {
+    font-size: 24px;
 }
