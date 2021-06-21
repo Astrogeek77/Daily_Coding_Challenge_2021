@@ -23,7 +23,7 @@ let weather = {
         document.querySelector(".temp").innerText = temp + "°C";
         document.querySelector(".wind").innerText = "Wind Speed: " + speed + " KM/H";
         document.querySelector(".pressure").innerText = "Pressure: " + pressure + " kPa";
-        document.querySelector(".timezone").innerText = "Time-Zone: " + timezone + " UTC";
+        document.querySelector(".timezone").innerText = "Time-Zone: " + timeConvert(timezone) + " GMT";
 
         document.querySelector(".weather").classList.remove("loading");
         document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + name + ")";
@@ -40,6 +40,40 @@ document.querySelector(".search-box").addEventListener("keypress", function (e) 
 document.querySelector(".search button").addEventListener("click", function () {
     weather.search();
 })
+
+
+function timeConvert(num){
+    // let offset = num; //offset IST (seconds)
+    // let time = Math.round(offset/60); //or offset/60
+    // let hour = time / 60;
+    // let min = Math.abs(time % 60);
+    // var hrStr = "";
+
+    // if (hour > 0 && hour < 10) 
+    //   hrStr = "+0" + toString(hour);
+    // else if (hour >= 10)
+    //   hrStr = "+" + toString(hour);
+    // else if (hour < 0 && hour > -10)
+    //   hrStr = "-0" + toString(hour).substring(1);
+    // else
+    //   hrStr = toString(hour);
+
+    // var minStr = toString(min);
+
+    // if (min < 10) 
+    //   minStr = "0" + (time % 60);
+    
+    // let timeStr = hrStr + ":" + minStr;
+    // console.log(timeStr);
+
+    // return timeStr;
+
+
+    let hours = num / 3600;
+
+    if (hours > 0) return "+" + hours;
+    else return hours;
+}
 
 
 weather.fetchWeather("auckland");
