@@ -22,7 +22,7 @@ let weather = {
         document.querySelector(".humidity").innerText = "Humidity: " + humidity + "%";
         document.querySelector(".temp").innerText = temp + "°C";
         document.querySelector(".wind").innerText = "Wind Speed: " + speed + " KM/H";
-        document.querySelector(".pressure").innerText = "Pressure: " + pressure + " kPa";
+        document.querySelector(".pressure").innerText = "Pressure: " + pressure/100 + " bar";
         document.querySelector(".timezone").innerText = "Time-Zone: " + timeConvert(timezone) + " GMT";
 
         document.querySelector(".weather").classList.remove("loading");
