@@ -1,6 +1,8 @@
 ## Welcome! Konichiwa! Namaste!
 
-### Some small projects using HTML, CSS, Javascript, jQuery ....
+### Nothing Too Flashy! Just a icebreaker...
+
+### Some small Projects using HTML, CSS, Javascript, JQuery, External JS Libraries, APIs like openweatherapi ....
 
 ### [Daily Coding Challenge 2021 - Home](https://astrogeek77.github.io/Daily_Coding_Challenge_2021/)
 
@@ -11,7 +13,7 @@
 
 
 
-#### Some Projects to see.....
+#### Here are demos of Projects to see.....
 
 | Projects      | Link          | 
 | ------------- |:-------------:|
